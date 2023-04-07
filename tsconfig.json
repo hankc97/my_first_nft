@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "es2021",
+    "module": "CommonJS",
+    "esModuleInterop": true,
+    "lib": ["es2021"],
+    "importHelpers": true,
+    "rootDir": ".",
+    "moduleResolution": "node",
+    "declaration": false,
+    "strict": true,
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "noUnusedLocals": false,
+    "noFallthroughCasesInSwitch": false,
+    "experimentalDecorators": true,
+    "strictPropertyInitialization": false,
+    "outDir": "./dist",
+    "typeRoots": ["./node_modules/@types"],
+    "allowJs": true,
+    "resolveJsonModule": true
+  },
+  "include": ["app.ts"],
+  "exclude": ["node_modules", "cdk.out"]
+}
